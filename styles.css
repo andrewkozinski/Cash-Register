@@ -1,0 +1,47 @@
+body {
+    background-color: #273DB4;
+    color: white;
+    font-family: Open Sans;
+    text-align: center;
+  }
+  
+  h1, h3 { 
+    font-family: helvetica;
+  }
+  
+  #input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7284e0;
+    border-radius: 4%;
+    padding: 50px;
+    height: auto;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #output-div {
+    background-color: #141414;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    text-align: left;
+  }
+  
+  #input-div button { 
+    margin-top: 4px;
+    font-family: Open Sans
+  }
